@@ -1,0 +1,6 @@
+<svg width="240" height="80" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cuore del Sud logo">
+  <title>Cuore del Sud</title>
+  <rect x="4" y="10" width="232" height="60" rx="16" ry="16" fill="none" stroke="#c3161c" stroke-width="4" />
+  <path d="M120 8c-9.9-9.6-26.6-9.6-36.5 0-9.8 9.6-9.8 25.1 0 34.7l36.5 35.1 36.5-35.1c9.8-9.6 9.8-25.1 0-34.7-9.9-9.6-26.6-9.6-36.5 0z" fill="#c3161c" transform="translate(0 -2) scale(0.25) translate(200 40)" />
+  <text x="24" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#c3161c">CUORE DEL SUD</text>
+</svg>
