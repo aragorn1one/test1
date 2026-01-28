@@ -23,6 +23,11 @@ body {
   line-height: 1.6;
 }
 
+:focus-visible {
+  outline: 3px solid rgba(204, 90, 43, 0.4);
+  outline-offset: 3px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -105,6 +110,12 @@ main {
 .hero {
   padding: 5rem 1.5rem 4rem;
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(237, 231, 221, 0.6));
+}
+
+.contact-hero {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(237, 231, 221, 0.72)),
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1600&q=80")
+      center/cover no-repeat;
 }
 
 .hero-content {
@@ -308,6 +319,117 @@ h1 {
   padding: 2rem;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
+}
+
+.gallery-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.gallery-card {
+  background: var(--surface);
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.gallery-card figcaption {
+  padding: 0.9rem 1.2rem 1.2rem;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.map-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--surface);
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.map-card iframe {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  border-radius: 0.75rem;
+}
+
+.map-link {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.form-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--surface);
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.form-card label {
+  display: grid;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.form-card input,
+.form-card textarea {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-card textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.form-status {
+  color: var(--secondary);
+  font-weight: 600;
 }
 
 .footer {

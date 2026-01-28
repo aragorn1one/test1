@@ -12,6 +12,12 @@ open index.html
 
 Or double-click `index.html` in your file explorer.
 
+To open the contact page directly:
+
+```bash
+open contact.html
+```
+
 ## Publish with GitHub Pages
 
 1. Push the repository to GitHub.
@@ -20,3 +26,5 @@ Or double-click `index.html` in your file explorer.
    - **Branch**: `main`
    - **Folder**: `/ (root)`
 4. Save. GitHub Pages will publish the site automatically.
+
+The contact page will be available at `/contact.html`. Images on the contact page load from external URLs (no binary assets included).
