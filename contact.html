@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contatti | Cuore del Sud</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="logo" href="index.html">
+          <span>Cuore</span> del Sud
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html#about">About</a>
+          <a href="index.html#products">Products</a>
+          <a href="index.html#quality">Quality</a>
+          <a href="index.html#logistics">Logistics</a>
+          <a href="contact.html" aria-current="page">Contatti</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero contact-hero" aria-labelledby="contact-hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Cuore del Sud</p>
+          <h1 id="contact-hero-title">Contatti</h1>
+          <p class="lead">Cuore del Sud — Battipaglia (SA), Italia</p>
+          <div class="hero-actions">
+            <a class="button" href="tel:+39XXXXXXXXXX">Chiama ora</a>
+            <a class="button ghost" href="#contact-form">Scrivici</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="gallery-title">
+        <div class="section-header">
+          <h2 id="gallery-title">Sapori e logistica dal cuore della Campania</h2>
+          <p>Uno sguardo alle eccellenze che esportiamo ogni giorno.</p>
+        </div>
+        <div class="contact-gallery">
+          <figure class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
+              alt="Mozzarella fresca su tavolo in legno"
+              loading="lazy"
+            />
+            <figcaption>Mozzarella</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1464219222984-216ebffaaf85?auto=format&fit=crop&w=800&q=80"
+              alt="Pomodori maturi appena raccolti"
+              loading="lazy"
+            />
+            <figcaption>Pomodori</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80"
+              alt="Cassette di prodotti freschi pronte alla spedizione"
+              loading="lazy"
+            />
+            <figcaption>Selezione agricola</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img
+              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80"
+              alt="Interno di camion refrigerato per la logistica"
+              loading="lazy"
+            />
+            <figcaption>Logistica refrigerata</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section map-section" aria-labelledby="map-title">
+        <div class="section-header">
+          <h2 id="map-title">Dove siamo</h2>
+          <p>Il nostro hub operativo è nel distretto agroalimentare di Battipaglia.</p>
+        </div>
+        <div class="map-card">
+          <iframe
+            title="Mappa di Battipaglia (SA), Italia"
+            src="https://www.google.com/maps?q=Battipaglia%20SA%20Italia&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <a class="map-link" href="https://www.google.com/maps?q=Battipaglia%20SA%20Italia" target="_blank" rel="noreferrer">
+            Open in Google Maps
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="info-title">
+        <div class="section-header">
+          <h2 id="info-title">Contatti diretti</h2>
+          <p>Parliamo inglese e italiano. Rispondiamo rapidamente alle richieste.</p>
+        </div>
+        <div class="contact-info-grid">
+          <article class="info-card">
+            <h3>Indirizzo</h3>
+            <p>Via delle Industrie 12, Battipaglia (SA), Italia</p>
+          </article>
+          <article class="info-card">
+            <h3>Email</h3>
+            <p><a href="mailto:info@cuoredelsud.it">info@cuoredelsud.it</a></p>
+          </article>
+          <article class="info-card">
+            <h3>Telefono</h3>
+            <p><a href="tel:+39XXXXXXXXXX">+39 XXX XXX XXXX</a></p>
+          </article>
+          <article class="info-card">
+            <h3>Orari</h3>
+            <p>Lun - Ven · 9:00 - 18:00 CET</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-form-section" aria-labelledby="form-title">
+        <div class="section-header">
+          <h2 id="form-title">Scrivici</h2>
+          <p>Compila il modulo e ti ricontatteremo con una proposta dedicata.</p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" autocomplete="organization" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <div class="form-field checkbox-field">
+            <input id="consent" name="consent" type="checkbox" required />
+            <label for="consent">I agree to be contacted</label>
+          </div>
+
+          <div class="form-field visually-hidden" aria-hidden="true">
+            <label for="website">Website</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <button class="button" type="submit">Invia richiesta</button>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <strong>Cuore del Sud</strong>
+        <p>Italian export company from Battipaglia.</p>
+      </div>
+      <div>
+        <p>© 2024 Cuore del Sud. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
